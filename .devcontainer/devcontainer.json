@@ -32,5 +32,5 @@
 	"forwardPorts": [8888],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install -r .devcontainer/requirements.txt"
+	"postCreateCommand": "pip3 install -r .devcontainer/requirements.txt"
 }
