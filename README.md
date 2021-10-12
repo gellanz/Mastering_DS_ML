@@ -11,8 +11,10 @@ Inside the container the sakila database must be created.
 
     - mysql -u root -ppass --host localhost --port 3306
 
-2. After downloaded the required files and being exposed to the image, in my case, the path to the files inside the cointener is this:
+2. After downloading the required files and being exposed to the image, in the case of this repo, the path to the files inside the cointener is "/databases/, execute the following commands:
 
     - SOURCE /databases/sakila-schema.sql;
 
     - SOURCE /databases/sakila-data.sql;
+
+3. Connecting to the sakila database in the other container using the network of docker compose.

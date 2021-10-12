@@ -28,7 +28,7 @@
 		"eamodio.gitlens",
 		"eliverlara.sweet-vscode-icons",
 		"mtxr.sqltools",
-		"formulahendry.vscode-mysql"
+		"mtxr.sqltools-driver-mysql"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8888],
