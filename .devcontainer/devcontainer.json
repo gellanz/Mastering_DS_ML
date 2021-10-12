@@ -22,11 +22,13 @@
         "workbench.iconTheme": "Sweet vscode Icons",
     },
     "extensions": [
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "robbowen.synthwave-vscode",
-        "eamodio.gitlens",
-        "eliverlara.sweet-vscode-icons"
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"robbowen.synthwave-vscode",
+		"eamodio.gitlens",
+		"eliverlara.sweet-vscode-icons",
+		"mtxr.sqltools",
+		"formulahendry.vscode-mysql"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8888],
