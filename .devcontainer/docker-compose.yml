@@ -20,8 +20,6 @@ services:
     command: /bin/sh -c "while sleep 1000; do :; done"
     depends_on:
       - db
-    links:
-      - db
 volumes:
   mysql-data:
   
