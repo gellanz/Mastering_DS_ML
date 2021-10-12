@@ -8,7 +8,11 @@ This repository is to master data science and machine learning algorithms. I wil
 # MySQL
 Inside the container the sakila database must be created.
 1. Getting inside MySQL:
-    mysql --host 0.0.0.0 --port 3306 -ppass -u root
+
+    - mysql -u root --host localhost --port 3306 
+
 2. After downloaded the required files and being exposed to the image, in my case, the path to the files inside the cointener is this:
-    SOURCE /var/lib/mysql/mysql/sakila-db/sakila-schema.sql;
-    SOURCE /var/lib/mysql/mysql/sakila-db/sakila-data.sql;
+
+    - SOURCE /var/lib/mysql/mysql/sakila-db/sakila-schema.sql;
+
+    - SOURCE /var/lib/mysql/mysql/sakila-db/sakila-data.sql;
